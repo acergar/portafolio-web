@@ -1,4 +1,5 @@
 import Home from "@/pages/home/Home.vue";
+import Warning from "@/pages/home/Warning.vue";
 import { createRouter, createWebHashHistory } from "vue-router";
 
 
@@ -8,6 +9,11 @@ export const router = createRouter({
   routes: [
     {
       path: '/',
+      name: 'warning',
+      component: Warning
+    },
+     {
+      path: '/home',
       name: 'home',
       component: Home
     },
