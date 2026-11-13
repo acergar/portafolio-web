@@ -6,6 +6,7 @@ import { ref } from 'vue';
 
 const imagen = ref('/images/tama-rojo.png')
 const giro = ref(false)
+const fundido = ref(false)
 
 function girar() {
   if (giro.value) return
@@ -13,11 +14,18 @@ function girar() {
   giro.value = true
 
   setTimeout(() => {
+    fundido.value = true
+  }, 350)
+
+  setTimeout(() => {
     imagen.value =
         imagen.value === '/images/tama-rojo.png'
             ? '/images/tama-amarilllo.png'
             : '/images/tama-rojo.png'
-  }, 500)
+      fundido.value = false
+  }, 650)
+
+  
 
   setTimeout(() => {
     giro.value = false
@@ -33,9 +41,9 @@ function girar() {
     <div class="absolute inset-0 flex items-center justify-center pb-15">
     
         <img 
-        class="w-100 h-auto object-cover fade-edges cursor-pointer" 
+        class="w-120 h-auto object-cover fade-edges cursor-pointer drop-shadow-[0_0_10px_rgba(255,255,255,0.35)]" 
         :src="imagen"
-        :class="{ 'girar': giro }"
+        :class="{ 'girar': giro, 'fundir': fundido }"
         @click="girar"
         />
 
@@ -106,5 +114,13 @@ function girar() {
   font-family: 'VT323', monospace;
 }
 
+.girar {
+  animation: girar 1s ease-in-out forwards;
+}
+
+.fundir {
+  opacity: 0;
+  transition: opacity 0.9s ease-in-out;
+}
 
 </style>
