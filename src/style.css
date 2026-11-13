@@ -129,10 +129,23 @@
   }
 }
 
-html,
-body {
-  margin: 0;
-  overflow: hidden;
+
+@keyframes girar {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    transform: rotateY(90deg);
+  }
+
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+.girar {
+  animation: girar 1s ease-in-out forwards;
 }
 
 .fade-edges {
@@ -141,4 +154,10 @@ body {
     black 55%,
     transparent 100%
   );
+}
+
+html,
+body {
+  margin: 0;
+  overflow: hidden;
 }
