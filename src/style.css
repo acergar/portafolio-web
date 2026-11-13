@@ -128,3 +128,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.fade-edges {
+  mask-image: radial-gradient(
+    ellipse,
+    black 55%,
+    transparent 100%
+  );
+}
