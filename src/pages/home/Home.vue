@@ -20,7 +20,7 @@ function girar() {
   setTimeout(() => {
     imagen.value =
         imagen.value === '/images/tama-rojo.png'
-            ? '/images/tama-amarilllo.png'
+            ? '/images/tama-amarillo.png'
             : '/images/tama-rojo.png'
       fundido.value = false
   }, 650)
