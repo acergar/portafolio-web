@@ -32,7 +32,7 @@ onMounted(() => {
      <div class="flex flex-col items-center justify-center min-h-screen">
 
       <AlertDialog v-model:open="aparición">
-        <AlertDialogContent class="bg-white border-2 shadow-gray-400 p-8  max-w-none rounded-none duration-800 zoom-in-3000"
+        <AlertDialogContent class="bg-gray-300 p-8 shadow-[2px_2px_0_black,-2px_-2px_0_white,inset_2px_2px_0_#e5e7eb,inset_-2px_-2px_0_#4b5563,0_4px_12px_0_black] max-w-none rounded-none duration-800 zoom-in-3000"
         >
                   
         
@@ -47,8 +47,11 @@ onMounted(() => {
             </h2>
 
             <AlertDialogAction as-child>
-              <RouterLink to="/home">
-                <Button class="m-2 mt-8 rounded-none border border-gray-400 bg-white text-black text-base lg:text-xl vt323 hover:bg-yellow-400 hover:border-gray-900">
+              <RouterLink 
+              to="/home"
+              class="outline-none focus:outline-none focus-visible:outline-none"
+              >
+                <Button class="m-2 mt-8 rounded-none border border-gray-400 bg-white text-black text-lg lg:text-xl vt323 hover:bg-yellow-400 hover:border-gray-900">
                   Aceptar
                 </Button>
               </RouterLink>

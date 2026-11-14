@@ -1,5 +1,7 @@
 
 <script setup lang="ts">
+import RetroButton from '@/components/RetroButton.vue'
+
 
 </script>
 
@@ -9,47 +11,45 @@
 
          <div class="absolute">
    
-    <RouterLink to="/warning">
+            <RetroButton
+            to="/warning"
+            class="m-10 rounded-full bg-gray-300 text-black text-base lg:text-xl vt323 hover:bg-gray-500 hover:text-gray-300 hover:border-white"
+            >
+            Back
+            </RetroButton>
+        
+        </div>
 
-    <Button class="m-10 rounded-none border border-gray-400 bg-white text-black text-base lg:text-xl vt323 hover:bg-yellow-400 hover:border-white p-2">
-    Back
-    </Button>
-    
-    </RouterLink>
    
-   </div>
+    <div class="fixed bottom-0 left-0 w-full items-center flex justify-center md:gap-10 lg:gap-40 pb-10" >
 
-   
-    <div class="fixed bottom-0 left-0 w-full items-center flex justify-center gap-12 md:gap-25 lg:gap-40 pb-10" >
-
-        <RouterLink to="/video">
-
-        <Button class="rounded-none border border-gray-400 bg-white text-black text-base lg:text-xl vt323 hover:bg-yellow-400 hover:border-white p-2">
+        <RetroButton 
+         to="/video"
+         class="m-4 rounded-full bg-red-800 text-gray-200 text-base lg:text-xl vt323 hover:bg-gray-500 hover:text-gray-300 hover:border-white"
+        >
         Filmoteca
-        </Button>
-        
-        </RouterLink>
-        <RouterLink to="/characters">
-
-        <Button class="rounded-none border border-gray-400 bg-white text-black text-base lg:text-xl vt323 hover:bg-yellow-400 hover:border-white p-2">
+        </RetroButton>
+    
+        <RetroButton 
+         to="/characters"
+         class="m-4 rounded-full bg-red-800 text-gray-200 text-base lg:text-xl vt323 hover:bg-gray-500 hover:text-gray-300 hover:border-white"
+        >
         Select
-        </Button>
-        
-        </RouterLink>
-        <RouterLink to="/care">
-
-        <Button class="rounded-none border border-gray-400 bg-white text-black text-base lg:text-xl vt323 hover:bg-yellow-400 hover:border-white p-2">
+        </RetroButton>
+       
+        <RetroButton 
+         to="/care"
+         class="m-4 rounded-full bg-red-800 text-gray-200 text-base lg:text-xl vt323 hover:bg-gray-500 hover:text-gray-300 hover:border-white"
+        >
         Care
-        </Button>
-        
-        </RouterLink>
-        <RouterLink to="/about">
-
-        <Button class="rounded-none border border-gray-400 bg-white text-black text-base lg:text-xl vt323 hover:bg-yellow-400 hover:border-white p-2">
+        </RetroButton>
+    
+        <RetroButton 
+         to="/about"
+         class="m-4 rounded-full bg-red-800 text-gray-200 text-base lg:text-xl vt323 hover:bg-gray-500 hover:text-gray-300 hover:border-white"
+        >
         About
-        </Button>
-        
-        </RouterLink>
+        </RetroButton>
     
     </div>
 

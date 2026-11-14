@@ -29,7 +29,7 @@ function girar() {
 
   setTimeout(() => {
     giro.value = false
-  }, 1000)
+  }, 2000)
 }
 
 </script>
@@ -38,7 +38,7 @@ function girar() {
     
    <div class="flex absolute w-full h-full bg-gray-600 -z-10">
 
-   <div class="fixed inset-0 -z-10">
+   <div class="fixed inset-0 -z-10 ">
         <img
             src="/images/fondo-windows.webp"
             alt=""
