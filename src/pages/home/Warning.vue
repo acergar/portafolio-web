@@ -42,7 +42,7 @@ onMounted(() => {
               ESPERA UN MOMENTO...
             </h1>
 
-            <h2 class="flex items-center justify-center text-black text-sm lg:text-lg whitespace-nowrap ">
+            <h2 class="flex items-center justify-center text-black text-sm lg:text-lg whitespace-nowrap">
               Al acceder aceptas un gran compromiso. ¿Estás dispuest@?
             </h2>
 

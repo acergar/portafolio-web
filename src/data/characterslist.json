@@ -1,218 +1,219 @@
 [
-  {
-    "id": "01",
-    "name": "Mimoru",
-    "species": "Ave",
-    "description": "Pío, pío… Tiene dos patas, un pico y cero planes para llegar puntual."
-  },
-  {
-    "id": "02",
-    "name": "Ponchi",
-    "species": "Caracol",
-    "description": "Va con la casa a cuestas. Si llega tarde, dice que estaba aparcando."
-  },
-  {
-    "id": "03",
-    "name": "Bubuki",
-    "species": "Criatura felina",
-    "description": "Un felino de pocas prisas y muchos mofletes. Su deporte favorito es ocupar sitio."
-  },
-  {
-    "id": "04",
-    "name": "Tekito",
-    "species": "Robot",
-    "description": "Bip-bip. Es un robot pequeñito: piensa mucho, pero a veces se le queda la pantalla cargando."
-  },
-  {
-    "id": "05",
-    "name": "Nekomi",
-    "species": "Gato",
-    "description": "Gato de mirada seria y agenda apretada. Básicamente duerme y juzga."
-  },
-  {
-    "id": "06",
-    "name": "Chirupi",
-    "species": "Roedor",
-    "description": "Un roedor diminuto con energía de sobra. Ñic-ñic y a explorar cualquier rincón."
-  },
-  {
-    "id": "07",
-    "name": "Kitsumi",
-    "species": "Zorro",
-    "description": "Un zorrito con cara de no haber sido. Sospechosamente, siempre desaparecen los snacks."
-  },
-  {
-    "id": "08",
-    "name": "Mokoro",
-    "species": "Criatura seta",
-    "description": "Parece una seta, pero no se queda quieto. Plop: aparece justo donde menos lo esperas."
-  },
-  {
-    "id": "09",
-    "name": "Pipuru",
-    "species": "Ave fantástica",
-    "description": "Un pajarillo con mucha opinión. Pía primero y pregunta después."
-  },
-  {
-    "id": "10",
-    "name": "Wanimo",
-    "species": "Perro",
-    "description": "Guau, guau. No sabe qué está pasando, pero está encantado de acompañarte."
-  },
-  {
-    "id": "11",
-    "name": "Dorobo",
-    "species": "Espantapájaros",
-    "description": "Cuida el huerto con gran profesionalidad. Los cuervos le tienen más respeto que miedo."
-  },
-  {
-    "id": "12",
-    "name": "Kamepi",
-    "species": "Tortuga",
-    "description": "Va despacito, pero llega. Su lema: sin prisa y con caparazón."
-  },
-  {
-    "id": "13",
-    "name": "Rokuto",
-    "species": "Dinosaurio",
-    "description": "Un dinosaurio de cuello curioso. ¿Qué hay ahí arriba? Lo mismo de siempre: más cielo."
-  },
-  {
-    "id": "14",
-    "name": "Mekabu",
-    "species": "Criatura mecánica",
-    "description": "Tiene pinta de aparato antiguo y modales de estrella. Clac-clac: exige atención."
-  },
-  {
-    "id": "15",
-    "name": "Pukumi",
-    "species": "Erizo",
-    "description": "Pequeño, redondito y con pinchos. Abraza con la mirada, que ya es bastante."
-  },
-  {
-    "id": "16",
-    "name": "Yorumi",
-    "species": "Ave nocturna",
-    "description": "Un ave de ojos despiertos. Se pasa la noche pensando y el día recuperándose."
-  },
-  {
-    "id": "17",
-    "name": "Florumi",
-    "species": "Criatura vegetal",
-    "description": "Mitad brote, mitad misterio. Si le hablas bonito, igual le sale una hojita nueva."
-  },
-  {
-    "id": "18",
-    "name": "Zazupi",
-    "species": "Miriápodo",
-    "description": "Tiene patas para dar y regalar. Aun así, nunca encuentra sus zapatos."
-  },
-  {
-    "id": "19",
-    "name": "Tokageko",
-    "species": "Lagarto",
-    "description": "Un lagarto curioso que toma el sol como si fuera un trabajo a jornada completa."
-  },
-  {
-    "id": "20",
-    "name": "Bimbee",
-    "species": "Insecto fantástico",
-    "description": "Una criatura con pinta de bicho del jardín. Bzz… aunque no siempre sabe hacia dónde."
-  },
-  {
-    "id": "21",
-    "name": "Mishiro",
-    "species": "Gato",
-    "description": "Un gato de bigotes importantes. No pide permiso: considera que todo ya es suyo."
-  },
-  {
-    "id": "22",
-    "name": "Koropi",
-    "species": "Ave",
-    "description": "Un ave pequeñita con grandes noticias. La mayoría son sobre migas de pan."
-  },
-  {
-    "id": "23",
-    "name": "Aqualu",
-    "species": "Caballito de mar",
-    "description": "Un caballito de mar que nada muy digno. Hace burbujas cuando se queda sin palabras."
-  },
-  {
-    "id": "24",
-    "name": "Gurami",
-    "species": "Reptil",
-    "description": "Tiene una sonrisa de cocodrilo y modales de lagartija. Mejor no discutir por la merienda."
-  },
-  {
-    "id": "25",
-    "name": "Klikko",
-    "species": "Criatura mecánica",
-    "description": "Parece una maquinita con patas. Hace clonc cuando piensa y clic cuando se emociona."
-  },
-  {
-    "id": "26",
-    "name": "Ponponi",
-    "species": "Caballo",
-    "description": "Un caballo en miniatura con espíritu de carrera. Hiiii… ¿hay zanahorias?"
-  },
-  {
-    "id": "27",
-    "name": "Yumoku",
-    "species": "Fantasma",
-    "description": "Un fantasmita nada aterrador. Su mayor susto es que se acabe la hora de jugar."
-  },
-  {
-    "id": "28",
-    "name": "Hanupi",
-    "species": "Planta fantástica",
-    "description": "Una plantita con aspiraciones de bosque. Crece mejor con agua y cumplidos."
-  },
-  {
-    "id": "29",
-    "name": "Mielu",
-    "species": "Abeja",
-    "description": "Bzz-bzz. Trabaja mucho, pero siempre encuentra tiempo para una vuelta más."
-  },
-  {
-    "id": "30",
-    "name": "Pochimi",
-    "species": "Ave",
-    "description": "Un pajarito con cara de tener un secreto. Lo cuenta todo a base de píos."
-  },
-  {
-    "id": "31",
-    "name": "Mububu",
-    "species": "Criatura gelatinosa",
-    "description": "Una bolita blandita sin forma fija. Se adapta a todo, menos a madrugar."
-  },
-  {
-    "id": "32",
-    "name": "Ryupon",
-    "species": "Dragón pequeño",
-    "description": "Un dragoncito con mucho carácter y poco fuego. Ffff… de momento solo calienta el té."
-  },
-  {
-    "id": "33",
-    "name": "Gorupi",
-    "species": "Criatura fantástica",
-    "description": "Una bestia diminuta de aspecto feroz. En realidad, se asusta con su propio estornudo."
-  },
-  {
-    "id": "34",
-    "name": "Pumpomi",
-    "species": "Criatura calabaza",
-    "description": "Una calabacita con espíritu otoñal. Está de temporada los 365 días del año."
-  },
-  {
-    "id": "35",
-    "name": "Nubiko",
-    "species": "Insecto",
-    "description": "Un bichito de muchas ganas y pocas explicaciones. Se mueve raro, pero con mucha seguridad."
-  },
-  {
-    "id": "36",
-    "name": "Fuwari",
-    "species": "Criatura de fuego",
-    "description": "Una llamita pequeñita. Echa chispas de emoción y nunca se quema con sus ideas."
-  }
+{
+"id": "01",
+"name": "Kitsumi",
+"species": "Zorro",
+"description": "Es famoso por su astucia, si algo sale mal, casualmente él nunca estaba allí."
+},
+{
+"id": "02",
+"name": "Tsumori",
+"species": "Caracol",
+"description": "Lleva su casa a todas partes, así nunca tiene que preocuparse por hacer la maleta."
+},
+{
+"id": "03",
+"name": "Tokapi",
+"species": "Lagarto",
+"description": "Ha descubierto el secreto de la productividad: pasar seis horas al sol sin hacer absolutamente nada."
+},
+{
+"id": "04",
+"name": "Hitomi",
+"species": "Humanoide",
+"description": "Va armado con una lanza y una confianza desproporcionada para su tamaño."
+},
+{
+"id": "05",
+"name": "Namaru",
+"species": "Perezoso",
+"description": "No es que no pueda ir más rápido, es que no encuentra motivos."
+},
+{
+"id": "06",
+"name": "Nezupi",
+"species": "Ratón",
+"description": "Conoce todos los rincones de la casa. Su especialidad: desaparecer cuando toca limpiar."
+},
+{
+"id": "07",
+"name": "Okamio",
+"species": "Lobo",
+"description": "Le encanta aullar a la luna porque dice que es la única que le escucha sin interrumpir."
+},
+{
+"id": "08",
+"name": "Nokomi",
+"species": "Seta",
+"description": "Nadie sabe de dónde ha salido, ayer no estaba y hoy ocupa medio jardín. Por lo visto, tampoco piensa irse."
+},
+{
+"id": "09",
+"name": "Torina",
+"species": "Ave",
+"description": "Tiene alas, pero no demasiadas ganas de usarlas. Prefiere caminar y hacer creer que es por elección propia."
+},
+{
+"id": "10",
+"name": "Wasumi",
+"species": "Nutria",
+"description": "Cuando sale a la superficie se queda flotando boca arriba. Asegura que está pensando. Nadie le ha pedido que piense tanto."
+},
+{
+"id": "11",
+"name": "Kashiro",
+"species": "Espantapájaros",
+"description": "Lleva años vigilando el huerto y todavía no ha conseguido que nadie le dé las gracias."
+},
+{
+"id": "12",
+"name": "Kaerupi",
+"species": "Rana",
+"description": "Puede pasar horas sentada sobre una hoja sin hacer nada. Lo llama esperar el momento adecuado. La hoja tiene sus dudas."
+},
+{
+"id": "13",
+"name": "Nyako",
+"species": "Gato",
+"description": "Tiene estándares muy altos para alguien que duerme dentro de una caja."
+},
+{
+"id": "14",
+"name": "Rukari",
+"species": "Autómata",
+"description": "Tiene una caja por cuerpo. No se sabe quién está a cargo de quién, pero ambos parecen estar de acuerdo en no hablar del tema."
+},
+{
+"id": "15",
+"name": "Harumi",
+"species": "Erizo",
+"description": "Dice que no es difícil acercarse a él, pero conviene no tomárselo al pie de la letra."
+},
+{
+"id": "16",
+"name": "Dangoro",
+"species": "Armadillo",
+"description": "Ante cualquier problema, se hace una bola hasta que pase. Su método no es muy sofisticado, pero tiene una eficacia envidiable."
+},
+{
+"id": "17",
+"name": "Honeri",
+"species": "Esqueleto",
+"description": "Es muy transparente con sus sentimientos. También con todo lo demás. No tiene mucho donde esconder nada."
+},
+{
+"id": "18",
+"name": "Mukapi",
+"species": "Ciempiés",
+"description": "Tiene patas para dar y regalar. Aun así, nunca encuentra sus zapatos."
+},
+{
+"id": "19",
+"name": "Meporu",
+"species": "Tortuga",
+"description": "Lleva toda la vida llegando tarde y todavía no ha entendido por qué todo el mundo tiene tanta prisa."
+},
+{
+"id": "20",
+"name": "Butomaru",
+"species": "Escarabajo",
+"description": "Está convencido de que puede levantar cualquier cosa. Todavía no ha encontrado nada que le haga cambiar de opinión."
+},
+{
+"id": "21",
+"name": "Usari",
+"species": "Conejo",
+"description": "Es mitad conejo, mitad ciervo. Lleva cuernos, pero no piensa dar explicaciones a nadie."
+},
+{
+"id": "22",
+"name": "Umiri",
+"species": "Criatura marina",
+"description": "Conoce cada rincón del fondo marino, aunque sigue sin entender por qué los peces se empeñan en vivir en él."
+},
+{
+"id": "23",
+"name": "Shion",
+"species": "Caballito de mar",
+"description": "Se mueve con una elegancia peculiar. Siempre procura que todos noten su entrada."
+},
+{
+"id": "24",
+"name": "Ryuto",
+"species": "Dinosaurio",
+"description": "Tiene unos brazos diminutos para alguien con semejante historial. No hace falta tenerlo todo para llegar a lo más alto."
+},
+{
+"id": "25",
+"name": "Nebari",
+"species": "Babas",
+"description": "Son tres, piensan por separado y aun así siempre llegan a la misma conclusión."
+},
+{
+"id": "26",
+"name": "Umaji",
+"species": "Caballo",
+"description": "Cuando se pone nervioso, empieza a trotar en círculos. Dice que está calentando, aunque nadie haya organizado ninguna carrera."
+},
+{
+"id": "27",
+"name": "Piyori",
+"species": "Pollito",
+"description": "Todavía no sabe muy bien qué quiere ser de mayor. De momento, sigue a cualquiera que parezca tener un plan."
+},
+{
+"id": "28",
+"name": "Morupi",
+"species": "Murciélago",
+"description": "Tiene un solo ojo, pero asegura que ve perfectamente. Lleva años esquivando las preguntas incómodas sobre el otro."
+},
+{
+"id": "29",
+"name": "Hachimi",
+"species": "Abeja",
+"description": "Con cinco ojos y aun así le cuesta encontrar una flor adecuada. Prefiere decir que estaba explorando otras opciones."
+},
+{
+"id": "30",
+"name": "Butaro",
+"species": "Cerdo",
+"description": "Un olfato extraordinario para encontrar comida. Curiosamente, nunca consigue encontrar el momento de dejar de comer."
+},
+{
+"id": "31",
+"name": "Mofumi",
+"species": "Bola de pelo",
+"description": "Nunca se sabe dónde termina su pelo y dónde empieza el resto. Tampoco tiene demasiado interés en aclararlo."
+},
+{
+"id": "32",
+"name": "Sukami",
+"species": "Mofeta",
+"description": "Tiene un mecanismo de defensa que hace innecesaria cualquier discusión. No es que tenga mal carácter, es que sabe hacerse entender."
+},
+{
+"id": "33",
+"name": "Onimi",
+"species": "Demonio",
+"description": "Viene directamente del inframundo, una criatura temible, pero todavía no ha conseguido que se tomen en serio sus amenazas."
+},
+{
+"id": "34",
+"name": "Ryuma",
+"species": "Dragón",
+"description": "Lleva tanto tiempo dormido que forma parte del paisaje. Algún día despertará y todos tendrán que fingir que no lo estaban mirando."
+},
+{
+"id": "35",
+"name": "Tenmari",
+"species": "Mariquita",
+"description": "Cuenta sus lunares de vez en cuando para asegurarse de que siguen todos en su sitio. Nunca ha conseguido terminar."
+},
+{
+"id": "36",
+"name": "Wakapi",
+"species": "Planta",
+"description": "Necesita sol, agua y un poco de atención. Una lista de exigencias bastante razonable."
+}
 ]
+

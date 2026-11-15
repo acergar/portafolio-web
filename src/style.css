@@ -124,6 +124,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-sans)
@@ -139,7 +140,6 @@
     transform: rotateY(3600deg);
   }
 }
-
 
 .fade-edges {
   mask-image: radial-gradient(
