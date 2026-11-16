@@ -17,35 +17,45 @@ const personaje = ref(
 const giro = ref(false)
 const fundido = ref(false)
 const fundidoPersonaje = ref(false)
+const reaction = ref(false)
 
 function girar() {
-  if (giro.value) return
+  if (giro.value || reaction.value) return
+
+  reaction.value = true
+
+  const sonido = new Audio('/sounds/sonido_huida.mp3')
+  sonido.volume = 0.5
+  sonido.play().catch(() => {})
 
   setTimeout(() => {
+    reaction.value = false
+
     fundidoPersonaje.value = true
-  }, 0)
+    giro.value = true
 
-  giro.value = true
+    setTimeout(() => {
+      fundido.value = true
+    }, 350)
 
-  setTimeout(() => {
-    fundido.value = true
-  }, 350)
-
-  setTimeout(() => {
-    imagen.value =
+    setTimeout(() => {
+      imagen.value =
         imagen.value === '/images/tama-rojo.png'
-            ? '/images/tama-amarillo.png'
-            : '/images/tama-rojo.png'
+          ? '/images/tama-amarillo.png'
+          : '/images/tama-rojo.png'
+
       fundido.value = false
-  }, 650)
+    }, 650)
 
-  setTimeout(() => {
-    fundidoPersonaje.value = false
-  }, 1400)
+    setTimeout(() => {
+      fundidoPersonaje.value = false
+    }, 1400)
 
-  setTimeout(() => {
-    giro.value = false
-  }, 2000)
+    setTimeout(() => {
+      giro.value = false
+    }, 2000)
+
+  }, 250)
 }
 
 </script>
@@ -78,6 +88,7 @@ function girar() {
             absolute w-20 h-20 object-contain pointer-events-none drop-shadow-[4px_4px_0px_rgba(255,230,120,0.8)]
             -translate-x-8 translate-y-21 transition-opacity duration-1000"
             :class="{
+              'reaccion': reaction,
               'girar': giro,
               'opacity-0': fundidoPersonaje,
               'opacity-100': !fundidoPersonaje
@@ -114,6 +125,28 @@ function girar() {
 .fundir {
   opacity: 0;
   transition: opacity 0.9s ease-in-out;
+}
+
+.reaccion {
+  animation: reaccion 0.25s ease-in-out;
+}
+
+@keyframes reaccion {
+  0% {
+    transform: scale(1);
+  }
+
+  30% {
+    transform: scale(0.92) rotate(-3deg);
+  }
+
+  60% {
+    transform: scale(1.05) rotate(3deg);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 </style>
