@@ -4,12 +4,26 @@ import { ref } from 'vue';
 import Navigation from '@/components/Navigation.vue'
 
 
+const selectedTamaId = localStorage.getItem('selectedTamaId')
+
 const imagen = ref('/images/tama-rojo.png')
+
+const personaje = ref(
+  selectedTamaId
+    ? `/creatures/${String(selectedTamaId).padStart(2, '0')}.png`
+    : ''
+)
+
 const giro = ref(false)
 const fundido = ref(false)
+const fundidoPersonaje = ref(false)
 
 function girar() {
   if (giro.value) return
+
+  setTimeout(() => {
+    fundidoPersonaje.value = true
+  }, 0)
 
   giro.value = true
 
@@ -25,7 +39,9 @@ function girar() {
       fundido.value = false
   }, 650)
 
-  
+  setTimeout(() => {
+    fundidoPersonaje.value = false
+  }, 1400)
 
   setTimeout(() => {
     giro.value = false
@@ -55,6 +71,19 @@ function girar() {
         @click="girar"
         />
 
+          <img
+            v-if="personaje"
+            :src="personaje"
+            class="
+            absolute w-20 h-20 object-contain pointer-events-none
+            -translate-x-8 translate-y-21 transition-opacity duration-1000"
+            :class="{
+              'girar': giro,
+              'opacity-0': fundidoPersonaje,
+              'opacity-100': !fundidoPersonaje
+            }"
+          />
+
     </div>
    
     <div class="flex flex-col items-center justify-center min-h-screen">
@@ -79,6 +108,7 @@ function girar() {
 
 .girar {
   animation: girar 1s ease-in-out forwards;
+  animation-delay: 500ms;
 }
 
 .fundir {
