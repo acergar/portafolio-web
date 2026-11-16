@@ -75,7 +75,7 @@ function girar() {
             v-if="personaje"
             :src="personaje"
             class="
-            absolute w-20 h-20 object-contain pointer-events-none
+            absolute w-20 h-20 object-contain pointer-events-none drop-shadow-[4px_4px_0px_rgba(255,230,120,0.8)]
             -translate-x-8 translate-y-21 transition-opacity duration-1000"
             :class="{
               'girar': giro,

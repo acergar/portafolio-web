@@ -11,7 +11,13 @@ import RetroButton from '@/components/RetroButton.vue'
    
         <RetroButton
         to="/home"
-        class="m-10 rounded-full bg-gray-300 text-black text-base lg:text-xl vt323 hover:bg-gray-500 hover:text-gray-300 hover:border-white"
+        class="m-5 rounded-full text-black text-xs lg:text-sm vt323"
+            color="gray"
+            light="white"
+            dark="black"
+        :opacity="1"
+        :light-opacity="0.7"
+        :dark-opacity="0.3"
         >
         Back
         </RetroButton>

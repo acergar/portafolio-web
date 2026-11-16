@@ -52,7 +52,7 @@ const acceptTama = () => {
 </script>
 
 <template>
-    <div class="flex items-center justify-center gap-2 mt-auto pb-14">
+    <div class="flex items-center justify-center gap-2 mt-auto pb-14 lg:pb-12">
                 
             <Dialog>
             

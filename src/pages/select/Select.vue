@@ -56,8 +56,10 @@ const infoTama = computed(() => {
 
     <div>
      <img 
-        class="fixed inset-0 opacity-95 w-screen h-screen object-fill -z-10
-                 lg:w-325 lg:h-185 lg:left-1/2 lg:-translate-x-1/2 lg:top-1/2 lg:-translate-y-1/2" 
+        class="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
+           w-screen h-screen object-fill -z-10 opacity-95
+           lg:w-[min(1300px,95vw)] lg:h-[min(740px,105dvh)]
+           xl:w-[min(1300px,85vw)] xl:h-[min(840px,105dvh)]"
         src="/images/interior.png" 
         draggable="false"
     />
@@ -68,7 +70,13 @@ const infoTama = computed(() => {
    
         <RetroButton
         to="/home"
-        class="m-5 rounded-full bg-[#B8BDC5] text-black text-xs lg:text-sm vt323 hover:bg-gray-500 hover:text-gray-300 hover:border-white"
+        class="m-5 rounded-full text-black text-xs lg:text-sm vt323"
+            color="gray"
+            light="white"
+            dark="black"
+        :opacity="1"
+        :light-opacity="0.7"
+        :dark-opacity="0.3"
         >
         Back
         </RetroButton>
