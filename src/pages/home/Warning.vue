@@ -38,7 +38,7 @@ onMounted(() => {
         
         <div class="flex flex-col items-center justify-center">
 
-            <h1 class="flex items-center justify-center text-black text-5xl lg:text-6xl vt323">
+            <h1 class="flex items-center justify-center text-black text-5xl lg:text-6xl handjet">
               ESPERA UN MOMENTO...
             </h1>
 
@@ -51,7 +51,7 @@ onMounted(() => {
               to="/home"
               class="outline-none focus:outline-none focus-visible:outline-none"
               >
-                <Button class="m-2 mt-8 rounded-none border border-gray-400 bg-white text-black text-lg lg:text-xl vt323 hover:bg-yellow-400 hover:border-gray-900">
+                <Button class="m-2 mt-8 rounded-none border border-gray-400 bg-white text-black text-lg lg:text-xl handjet hover:bg-yellow-400 hover:border-gray-900">
                   Aceptar
                 </Button>
               </RouterLink>
@@ -76,8 +76,8 @@ onMounted(() => {
 
 <style>
 
-.vt323 {
-  font-family: 'VT323', monospace;
+.handjet {
+  font-family: 'Handjet', monospace;
 }
 
 </style>

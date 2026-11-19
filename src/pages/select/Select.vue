@@ -70,7 +70,7 @@ const infoTama = computed(() => {
    
         <RetroButton
         to="/home"
-        class="m-5 rounded-full text-black text-xs lg:text-sm vt323"
+        class="m-5 rounded-full text-black text-xs lg:text-sm handjet"
             color="gray"
             light="white"
             dark="black"
@@ -105,7 +105,7 @@ const infoTama = computed(() => {
                         draggable="false"
                         />
 
-                    <h2 class="text-xs lg:text-base font-bold vt323 text-center">
+                    <h2 class="text-xs lg:text-base font-bold handjet text-center">
                     {{ tama.name }}
                     </h2>
                 </div>
@@ -128,8 +128,8 @@ const infoTama = computed(() => {
 
 <style scoped>
 
-.vt323 {
-  font-family: 'VT323', monospace;
+.handjet {
+  font-family: 'handjet', monospace;
 }
 
 </style>

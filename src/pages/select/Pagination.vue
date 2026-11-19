@@ -77,7 +77,7 @@ const acceptTama = () => {
                                     v-if="infoTama"
                                     class="flex flex-col min-w-0 h-fit"
                                  >
-                                    <h2 class="text-2xl lg:text-5xl text-black font-bold vt323">
+                                    <h2 class="text-2xl lg:text-5xl text-black font-bold handjet">
                                         {{ infoTama.name }}
                                     </h2>
 
@@ -101,7 +101,7 @@ const acceptTama = () => {
             <button
                  @click="emit('changePage', currentPage - 1)"
                 :disabled="currentPage <= 1"
-                class="px-3 py-2 rounded-none bg-gray-300 shadow-[1px_2px_0_black,inset_1px_2px_0_#D1D5DB,inset_-2px_-2px_0_#4b5563,0_3px_10px_0_black] max-w-none disabled:bg-gray-500 disabled:border-gray-300 disabled:text-gray-400 text-sm vt323"
+                class="px-3 py-2 rounded-none bg-gray-300 shadow-[1px_2px_0_black,inset_1px_2px_0_#D1D5DB,inset_-2px_-2px_0_#4b5563,0_3px_10px_0_black] max-w-none disabled:bg-gray-500 disabled:border-gray-300 disabled:text-gray-400 text-sm handjet"
             >
                 <icon-placeholder />
                 Anterior
@@ -112,7 +112,7 @@ const acceptTama = () => {
                 :key="pagina"
                 @click="emit('changePage', pagina)"
                 :class="[
-                'w-9 h-9 rounded-none vt323 text-base transition-colors',
+                'w-9 h-9 rounded-none handjet text-base transition-colors',
                 currentPage === pagina
                     ? 'bg-gray-300 shadow-[2px_2px_0_black,-2px_-2px_0_white,inset_2px_2px_0_#e5e7eb,inset_-2px_-2px_0_#4b5563,0_3px_10px_0_black] max-w-none'
                     : 'bg-gray-400 shadow-[2px_2px_0_black,inset_2px_2px_0_#e5e7eb,inset_-2px_-2px_0_#4b5563,0_3px_10px_0_black] max-w-none'
@@ -124,7 +124,7 @@ const acceptTama = () => {
             <button
                 @click="emit('changePage', currentPage + 1)"
                 :disabled="currentPage >= totalPages"
-                class="px-3 py-2 rounded-none bg-gray-300 shadow-[1px_2px_0_black,inset_1px_2px_0_#D1D5DB,inset_-2px_-2px_0_#4b5563,0_3px_10px_0_black] max-w-none disabled:bg-gray-500 disabled:border-gray-300 disabled:text-gray-400 text-sm vt323"
+                class="px-3 py-2 rounded-none bg-gray-300 shadow-[1px_2px_0_black,inset_1px_2px_0_#D1D5DB,inset_-2px_-2px_0_#4b5563,0_3px_10px_0_black] max-w-none disabled:bg-gray-500 disabled:border-gray-300 disabled:text-gray-400 text-sm handjet"
             >
                 Siguiente
             </button>
@@ -146,7 +146,7 @@ const acceptTama = () => {
                     >
                         <DialogHeader>
                             <DialogTitle
-                            class="vt323 text-2xl"
+                            class="handjet text-2xl"
                             
                             >Confirmar personaje</DialogTitle>
 
@@ -164,7 +164,7 @@ const acceptTama = () => {
                                 class="flex items-center gap-2 px-4 py-2 bg-green-300
                                     text-black border-2 border-gray-800
                                     shadow-[2px_2px_0_black]
-                                    hover:bg-green-400 disabled:opacity-40 vt323"
+                                    hover:bg-green-400 disabled:opacity-40 handjet"
                             >
                                 <Check class="w-4 h-4" />
                                 Aceptar
@@ -175,7 +175,7 @@ const acceptTama = () => {
                                 class="flex items-center gap-2 px-4 py-2 bg-red-300
                                         text-black border-2 border-gray-800
                                         shadow-[2px_2px_0_black]
-                                        hover:bg-red-400 vt323"
+                                        hover:bg-red-400 handjet"
                                 >
                                 <X class="w-4 h-4" />
                                 Rechazar

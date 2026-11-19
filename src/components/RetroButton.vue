@@ -6,7 +6,8 @@ import { ref } from 'vue'
 const router = useRouter()
 
 const props = withDefaults(defineProps<{
-  to: string
+  to?: string
+  onClick?: () => void
   color?: string
   light?: string
   dark?: string
@@ -30,7 +31,13 @@ const navigateWithDelay = () => {
   isPressed.value = true
 
   setTimeout(() => {
-    router.push(props.to)
+    if (props.onClick) {
+      props.onClick()
+    } else if (props.to) {
+      router.push(props.to)
+    }
+
+    isPressed.value = false
   }, 400)
 }
 
